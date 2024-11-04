@@ -1,8 +1,8 @@
 import Image from "next/image";
-import imgUrl from "../../public/landing/our-philosophy.jpg";
+import philosophyImg from "../../public/landing/our-philosophy.jpg";
 const OurPhilosphy = () => {
   return (
-    <div className="container-full grid grid-cols-2 gap-10">
+    <div className="container-full grid grid-cols-2 mb-10 gap-10">
       <div className="flex flex-col justify-center">
         <h2 className="heading-1 mb-10">Our Philosphy</h2>
         <p className="">
@@ -14,9 +14,13 @@ const OurPhilosphy = () => {
         </p>
       </div>
       <div>
-        <Image src={imgUrl} alt="Our Philoshy's image" width={0} height={0} />
+        <Image
+          src={philosophyImg}
+          alt="Our Philoshy's image"
+          width={0}
+          height={0}
+        />
       </div>
-      <div></div>
     </div>
   );
 };
