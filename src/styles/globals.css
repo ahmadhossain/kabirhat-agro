@@ -2,8 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply text-gray-600;
+}
+
 @layer components {
   .heading-1 {
-    @apply text-4xl font-bold mb-10 uppercase;
+    @apply text-4xl text-black font-bold uppercase;
+  }
+  .container-full {
+    @apply px-10;
   }
 }

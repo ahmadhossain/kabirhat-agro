@@ -3,8 +3,8 @@ import React from "react";
 const OurService = () => {
   return (
     <div className="mx-10 my-20 text-center">
-      <div className="heading-1">Our Services</div>
-      <div className="flex flex-col gap-y-5 text-gray-600">
+      <div className="heading-1 mb-10">Our Services</div>
+      <div className="flex flex-col gap-y-5">
         <div>
           A Safira Agri was founded with the intention of structuring the corn,
           soy, and agricultural supplies import/export business, searching
