@@ -2,11 +2,11 @@ import Logo from "./Logo";
 
 const Footer = () => {
   return (
-    <div className="bg-teal-800 px-12 text-white text-sm font-normal">
-      <div className="flex justify-between py-8">
+    <div className="bg-teal-800 px-12 text-white text-sm font-medium">
+      <div className="flex flex-col md:flex-row gap-7 justify-between py-8">
         <Logo />
-        <div className="basis-1/2">
-          <p className="text-xl font-bold mb-3">Contact</p>
+        <div className="md:basis-1/2">
+          <p className="text-md md:text-xl font-bold mb-3">Contact</p>
           <div className="flex flex-col gap-2">
             <p>Tel: +55 (41) 3079-4050</p>
             <p>Email: infos@safiragri.com</p>

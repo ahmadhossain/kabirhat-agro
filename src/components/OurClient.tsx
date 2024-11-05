@@ -21,7 +21,7 @@ const OurClient = () => {
     <div className="mx-10 my-20 text-center">
       <div className="max-w-6xl mx-auto">
         <h2 className="heading-1 mb-10">Our Clients</h2>
-        <div className="grid grid-cols-3">
+        <div className="grid  md:grid-cols-3">
           {info.map((el, index) => (
             <div
               key={index}

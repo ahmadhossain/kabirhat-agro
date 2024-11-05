@@ -3,7 +3,7 @@ import goalImg from "../../public/landing/our-goal.jpg";
 
 const OurGoal = () => {
   return (
-    <div className="container-full grid grid-cols-2 gap-10 mb-10">
+    <div className="px-10 grid md:grid-cols-2 gap-10 mb-10">
       <div className="flex flex-col justify-center">
         <div>
           <Image src={goalImg} alt="Our Goal's image" width={0} height={0} />
