@@ -24,6 +24,7 @@ const OurClient = () => {
         <div className="grid grid-cols-3">
           {info.map((el, index) => (
             <div
+              key={index}
               className={`px-5 py-7 text-left ${el.bg} ${
                 index !== 0 && "text-white"
               }`}

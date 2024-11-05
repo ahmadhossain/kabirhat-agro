@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
-    <div className="flex justify-center bg-slate-800">
-      <div className="max-w-3xl my-40 text-white text-center">
+    <div className="bg-[url('../../public/landing/our-philosophy.jpg')] w-full z-0 justify-center bg-no-repeat bg-cover">
+      <div className="mx-auto py-52 px-80 bg-black/60 text-white text-center">
         <div className="pb-8 text-7xl font-bold">Nós somos a Safira!</div>
         <div>
           We are Agro! A company with soul and purpose. We are inspired by

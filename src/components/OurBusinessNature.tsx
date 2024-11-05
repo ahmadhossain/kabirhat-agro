@@ -30,8 +30,8 @@ const OurBusinessNature = () => {
       <div className="flex flex-col justify-center">
         <h2 className="heading-1 mb-10">NATURE OF THE BUSINESS</h2>
         <div className="flex flex-col gap-4 text">
-          {info.map((el) => (
-            <p>{el.desc}</p>
+          {info.map((el, index) => (
+            <p key={index}>{el.desc}</p>
           ))}
         </div>
       </div>
