@@ -18,7 +18,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="fixed top-0 w-full bg-white py-10 px-12 flex flex-wrap justify-between">
+    <nav className="fixed top-0 w-full bg-white py-3 px-12 flex flex-wrap justify-between items-center">
       <Logo />
       <div className="flex text-lg gap-3">
         {links.map((link) => (
