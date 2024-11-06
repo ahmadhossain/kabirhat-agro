@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="border-t border-gray-400 text-center pt-5 pb-8">
-        Copyright © 2024 Safira. All Rights Reserved.
+        Copyright © 2024 Kabirhat. All Rights Reserved.
       </p>
     </div>
   );
