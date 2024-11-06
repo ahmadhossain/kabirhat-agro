@@ -18,22 +18,20 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <div className="">
-      <div className="py-10 px-12 flex justify-between">
-        <Logo />
-        <div className="flex text-lg gap-3">
-          {links.map((link) => (
-            <Link
-              key={link.name}
-              href={link.href}
-              className={` ${pathname === link.href && "text-red-400"}`}
-            >
-              <p className="hidden md:block">{link.name}</p>
-            </Link>
-          ))}
-        </div>
+    <nav className="fixed top-0 w-full bg-white py-10 px-12 flex flex-wrap justify-between">
+      <Logo />
+      <div className="flex text-lg gap-3">
+        {links.map((link) => (
+          <Link
+            key={link.name}
+            href={link.href}
+            className={` ${pathname === link.href && "text-red-400"}`}
+          >
+            <p className="hidden md:block">{link.name}</p>
+          </Link>
+        ))}
       </div>
-    </div>
+    </nav>
   );
 };
 
