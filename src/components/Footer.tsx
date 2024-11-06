@@ -8,11 +8,11 @@ const Footer = () => {
         <div className="md:basis-1/2">
           <p className="text-md md:text-xl font-bold mb-3">Contact</p>
           <div className="flex flex-col gap-2">
-            <p>Tel: +55 (41) 3079-4050</p>
-            <p>Email: infos@safiragri.com</p>
+            <p>Tel: +880 1873372433</p>
+            <p>Email: info@Kabirhatagri.com</p>
             <p>
-              Address : R. XV de Novembro, 270 – Centro, Curitiba – PR, Cep
-              80.020-310 – Brazil
+              Address : 7th FL House No. 1127 – Ave 8 – Road No. 11 – DOHS,
+              Mirpur – Dhaka-1216
             </p>
           </div>
         </div>
