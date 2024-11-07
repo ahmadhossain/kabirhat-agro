@@ -1,5 +1,6 @@
 import Image from "next/image";
 import goalImg from "../../public/landing/our-goal.jpg";
+import Stripe from "./Stripe";
 
 const OurGoal = () => {
   return (
@@ -11,6 +12,7 @@ const OurGoal = () => {
       </div>
       <div className="flex flex-col justify-center">
         <h2 className="heading-1 mb-10">OUR GOALS</h2>
+        <Stripe />
         <p className="">
           Our focus is to connect suppliers to international buyers and ensure a
           smooth and lucrative experience for all parties involved.

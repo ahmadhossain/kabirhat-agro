@@ -1,5 +1,6 @@
 import Image from "next/image";
 import businessNatureImg from "../../public/landing/nature-of-business.jpg";
+import Stripe from "./Stripe";
 
 const OurBusinessNature = () => {
   const info = [
@@ -30,6 +31,7 @@ const OurBusinessNature = () => {
     <div className="px-10 grid md:grid-cols-2 mb-10 gap-10">
       <div className="flex flex-col justify-center">
         <h2 className="heading-1 mb-10">NATURE OF THE BUSINESS</h2>
+        <Stripe />
         <div className="flex flex-col gap-6 text">
           {info.map((el, index) => (
             <p key={index}>{el.desc}</p>

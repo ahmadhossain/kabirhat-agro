@@ -9,7 +9,7 @@ const Footer = () => {
           <p className="text-md md:text-xl font-bold mb-3">Contact</p>
           <div className="flex flex-col gap-2">
             <p>Tel: +880 1873372433</p>
-            <p>Email: info@Kabirhatagri.com</p>
+            <p>Email: info@Kabirhatagro.com</p>
             <p>
               Address : 7th FL House No. 1127 – Ave 8 – Road No. 11 – DOHS,
               Mirpur – Dhaka-1216

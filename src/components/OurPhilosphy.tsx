@@ -1,10 +1,12 @@
 import Image from "next/image";
 import philosophyImg from "../../public/landing/our-philosophy.jpg";
+import Stripe from "./Stripe";
 const OurPhilosphy = () => {
   return (
     <div className="px-10 grid md:grid-cols-2 mb-10 gap-10">
       <div className="flex flex-col justify-center">
         <h2 className="heading-1 mb-10">Our Philosphy</h2>
+        <Stripe />
         <p className="">
           Our philosophy is to provide a service of immense value to
           international buyers of soy and corn, accompanying all the stages of
